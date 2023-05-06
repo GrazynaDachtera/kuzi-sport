@@ -20,7 +20,7 @@
     }
 }
 /* Base styles for desktop */
-.menu {
+#main-menu {
     display: flex;
     align-items: center;
     height: 150px;
@@ -55,8 +55,18 @@
 
 /* Media query for mobile */
 @media (max-width: 768px) {
-    .menu {
-        flex-wrap: wrap;
+    #main-menu {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    #menu-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+        justify-content: center;
     }
 
     #menu-bar {
@@ -77,7 +87,7 @@
     }
 
     .nav li {
-        display: block;
+        display: flex;
         margin: 0;
         padding: 10px;
         text-align: center;
@@ -89,7 +99,7 @@
     }
 
     .nav li a {
-        display: inline-block;
+        display: flex;
         font-size: 16px;
     }
 
@@ -98,12 +108,29 @@
     }
 }
 
+
 .headline-img {
     height: 72px;
     width: 200px;
     cursor: pointer;
 }
 
-.nav {
+#bar1, #bar2, #bar3 {
+    background-color: #000;
+    height: 5px;
+    width: 35px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
+.change #bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
 }
