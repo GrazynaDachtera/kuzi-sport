@@ -1,6 +1,7 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
+
 }
 
 .headline-section {
@@ -11,6 +12,7 @@
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 769px) {
@@ -133,4 +135,14 @@
 
 .change #bar3 {
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.body-img {
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
