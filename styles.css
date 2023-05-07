@@ -201,26 +201,18 @@
 }
 
 .body-img {
-    margin: 0 auto;
     align-items: center;
     box-sizing: border-box;
     width: 1110px;
     position: relative;
     display: flex;
     justify-content: center;
-}
-
-.about-us-img {
-    display: inline-block;
     margin: 0 auto;
-    height: 72px;
-    width: 200px;
-    position: relative;
-    overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .about-us-container {
-    display: inline-flex;
+    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     position: relative;
@@ -230,7 +222,7 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     max-width: 1110px;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 .about-us-container-text {
@@ -241,26 +233,27 @@
     justify-content: center;
     display: flex;
     box-sizing: border-box;
-    width: 70%;
+    width: 65%;
     position: relative;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 0;
 }
 
 .body-section h2 {
     font-size: 30px;
     letter-spacing: 1rem;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #525252;
     width: 1110px;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10px auto;
+    margin: 0 auto;
 
 }
 
@@ -272,10 +265,61 @@
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin: 10px 10px;
     cursor: pointer;
     border-radius: 35px;
     border: none;
     font-family: 'Lato', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 20px;
 
+}
+
+#myButton:hover {
+    background-color: #eec700;
+    transition-duration: 500ms;
+}
+
+.slider {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.slides {
+    display: flex;
+    width: calc(2 * 350px);
+    height: 350px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.slides img {
+    width: 350px;
+    height: 350px;
+}
+
+.slide-1 {
+    transform: translateX(0);
+}
+
+.slide-2 {
+    transform: translateX(-350px);
+}
+
+.slider:hover .slides {
+    transform: translateX(-350px);
+}
+
+.body-img2 {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    box-sizing: border-box;
 }
