@@ -255,6 +255,7 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    max-width: 1110px;
 
 }
 
@@ -281,7 +282,7 @@
 }
 
 .slider {
-    width: 350px;
+    max-width: 350px;
     height: 350px;
     overflow: hidden;
     position: relative;
@@ -314,7 +315,7 @@
 }
 
 .body-img2 {
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
