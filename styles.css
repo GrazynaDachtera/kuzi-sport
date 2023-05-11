@@ -324,3 +324,151 @@
     display: inline-flex;
     box-sizing: border-box;
 }
+
+ footer h2 {
+     font-size: 30px;
+     font-weight: 800;
+     letter-spacing: 1rem;
+     color: #000000;
+     background-color: #FFFFFF;
+     max-width: 1110px;
+     overflow: hidden;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 20px auto;
+     font-family: 'Lato', sans-serif;
+ }
+
+.contact-adress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    max-width: 900px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contact-text {
+    flex-basis: 100%;
+}
+
+.contact-image {
+    flex-basis: 30%;
+    margin-left: 10px;
+}
+
+.contact-text p {
+    margin: 0;
+}
+
+.contact-text ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text li {
+    list-style: none;
+
+
+}
+
+.contact-text ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+.contact-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .contact-form1 {
+     font-family: 'Lato', sans-serif;
+     font-size: 16px;
+     color: #000000;
+     overflow: hidden;
+     justify-content: center;
+     display: flex;
+     box-sizing: border-box;
+     position: relative;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin: 10px auto;
+ }
+
+.form-group {
+    margin: 10px auto;
+}
+
+label {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+button[type="submit"] {
+    background-color: #1169b6;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-title h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.map-section {
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+}
