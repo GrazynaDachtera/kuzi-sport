@@ -373,23 +373,20 @@
 .contact-item {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 .contact-text {
     flex-basis: 100%;
-    text-align: justify-all;
+}
+
+.contact-text p {
+    text-align: center;
 }
 
 .contact-image {
     flex-basis: 30%;
     margin: 10px;
-}
-
-.contact-text p {
-    margin: 0 auto;
-    display: inline-flex;
-
 }
 
 .contact-text ul {
@@ -403,7 +400,8 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
+    margin: 2px auto;
 }
 
 .contact-image img {
