@@ -387,7 +387,9 @@
 }
 
 .contact-text p {
-    margin: 5px;
+    margin: 0 auto;
+    display: inline-flex;
+
 }
 
 .contact-text ul {
