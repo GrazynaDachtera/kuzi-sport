@@ -315,37 +315,37 @@
     transform: translateX(-350px);
 }
 
-.img1-container {
+.image-container {
     position: relative;
-    max-width: 1110px;
-    margin: 0 auto;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: inline-flex;
-    box-sizing: border-box;
+    display: inline-block;
 }
 
 .caption {
     position: absolute;
-    top:50%
+    top: 50%;
     left: 50%;
-    padding: 20px;
-    width: 100%;
+    transform: translate(-50%, -50%);
+    width: 1110px;
     height: 100%;
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: #FFFFFF;
     text-align: center;
+    padding: 170px;
     transition: opacity 0.5s ease;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1rem;
     font-family: 'Raleway', sans-serif;
-
 }
 
-.caption:hover {
+.image-container:hover .caption {
     opacity: 1;
 }
+
+
+
+
 
 
  footer h2 {
