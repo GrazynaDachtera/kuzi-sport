@@ -1,7 +1,6 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
-
 }
 
 .headline-section {
@@ -207,8 +206,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
-    padding-bottom: 10px;
+    margin: 10px auto;
 }
 
 .about-us-container {
@@ -254,7 +252,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto;
     max-width: 1110px;
     font-family: 'Raleway', sans-serif;
 
@@ -318,6 +316,7 @@
 .image-container {
     position: relative;
     display: inline-block;
+    margin: 10px auto;
 }
 
 .caption {
@@ -326,12 +325,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1110px;
-    height: 100%;
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: #FFFFFF;
     text-align: center;
-    padding: 170px;
+    padding: 50px;
     transition: opacity 0.5s ease;
     font-size: 30px;
     font-weight: 100;
@@ -342,11 +340,6 @@
 .image-container:hover .caption {
     opacity: 1;
 }
-
-
-
-
-
 
  footer h2 {
      font-size: 30px;
@@ -380,48 +373,43 @@
 .contact-item {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .contact-text {
     flex-basis: 100%;
+    text-align: justify-all;
 }
 
 .contact-image {
     flex-basis: 30%;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 .contact-text p {
-    margin: 0;
+    margin: 5px;
 }
 
 .contact-text ul {
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .contact-text li {
     list-style: none;
-
-
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
-
-.contact-text ul {
-    margin: 0;
-    padding-left: 10px;
-}
-
 
 .contact-image img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
- .contact-form1 {
+ .contact-section-1 {
      font-family: 'Raleway', sans-serif;
      font-size: 16px;
      color: #000000;
@@ -433,7 +421,7 @@
      flex-direction: column;
      align-items: center;
      text-align: center;
-     margin: 10px auto;
+     margin: 0 auto;
      max-width: 60%;
  }
 
@@ -487,7 +475,7 @@ button[type="submit"]:hover {
 
 .form-title h3 {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 600;
     color: #000000;
     background-color: #FFFFFF;
     overflow: hidden;
@@ -495,6 +483,18 @@ button[type="submit"]:hover {
     align-items: center;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+}
+
+.map-section {
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    max-width: 40%;
 }
 
 .footer-section1 {
@@ -509,18 +509,6 @@ button[type="submit"]:hover {
     max-width: 1110px;
     margin: 10px auto;
     padding-top: 20px;
-}
-
-.map-section {
-    font-family: 'Raleway', sans-serif;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px auto;
-    max-width: 40%;
 }
 
 .footer-end-copyright {
@@ -550,7 +538,7 @@ button[type="submit"]:hover {
     text-decoration: none;
 }
 
-.footer-end-div {
+.footer-end {
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
     position: relative;
@@ -561,7 +549,7 @@ button[type="submit"]:hover {
     text-decoration: none;
 }
 
-.footer-end-div * {
+.footer-end * {
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
     position: relative;
@@ -571,7 +559,7 @@ button[type="submit"]:hover {
 .media-icons {
     background-color: #000000;
     position: absolute;
-    top: 5px;
+    top: 21px;
     left: 20px;
     margin: 0 auto;
     overflow: hidden;
