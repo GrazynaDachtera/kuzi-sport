@@ -200,8 +200,8 @@
 
 
 footer h2 {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 100;
     letter-spacing: 1rem;
     color: #000000;
     background-color: #FFFFFF;
@@ -210,7 +210,8 @@ footer h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 50px auto;
+    margin: 10px auto;
+    margin-top: 150px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -222,10 +223,10 @@ footer h2 {
     overflow: hidden;
     text-align: center;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 900px;
     margin: 10px auto;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .contact-item {
@@ -236,10 +237,7 @@ footer h2 {
 
 .contact-text {
     flex-basis: 100%;
-}
-
-.contact-text p {
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-image {
@@ -247,19 +245,13 @@ footer h2 {
     margin: 10px;
 }
 
-.contact-text ul {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.contact-text li {
+.contact-text p {
     list-style: none;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 2px auto;
+    text-align: left;
+    margin: 5px auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-image img {
