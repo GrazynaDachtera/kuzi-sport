@@ -250,37 +250,30 @@
 }
 
 .kuzi-team {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px auto;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
-    max-width: 1110px;
-}
-
-.team-images {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
-.team-images img {
-    width: calc(33.33% - 20px); /* Adjust the width and space between images as needed */
-    margin: 10px;
+.img {
+    width: calc(33.33% - 20px); /* Adjust the width and spacing as needed */
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    .team-images img {
+    .img {
         width: calc(50% - 20px);
     }
 }
 
 @media (max-width: 480px) {
-    .team-images img {
-        width: calc(100% - 20px);
+    .img {
+        width: 100%;
     }
 }
+
 
 
 
