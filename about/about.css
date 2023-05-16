@@ -233,6 +233,17 @@
     word-wrap: break-word;
 }
 
+.kuzi-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1110px;
+}
+
 .kuzi-team h3 {
     font-size: 30px;
     font-weight: 300;
@@ -248,29 +259,29 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.kuzi-team {
+.team-images {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
-.kuzi-team img {
-    width: 25%;
-    /* Adjust the width as needed */
-    margin: 5px;
+.team-images img {
+    width: calc(33.33% - 20px); /* Adjust the width and space between images as needed */
+    margin: 10px;
 }
 
 @media (max-width: 768px) {
-    .kuzi-team img {
-        width: 50%;
+    .team-images img {
+        width: calc(50% - 20px);
     }
 }
 
 @media (max-width: 480px) {
-    .kuzi-team img {
-        width: 100%;
+    .team-images img {
+        width: calc(100% - 20px);
     }
 }
+
+
 
 .footer-end-copyright {
     overflow: hidden;
