@@ -3,10 +3,8 @@ function menuOnClick() {
     nav.classList.toggle("active");
 }
 
-const myButton = document.getElementById("myButton");
-
-myButton.addEventListener("click", function() {
-    alert("Hello, world!");
+document.getElementById("myButton").addEventListener("click", function() {
+    window.location.href = "about/about.html";
 });
 
 const form = document.getElementById('contact-form');
