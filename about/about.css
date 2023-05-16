@@ -233,18 +233,7 @@
     word-wrap: break-word;
 }
 
-.kuzi-team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px auto;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
-    max-width: 1110px;
-}
-
-.kuzi-team h3 {
+.kuzi-team-h3 {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1rem;
@@ -257,6 +246,18 @@
     text-align: center;
     margin: 30px auto;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+}
+
+.kuzi-team {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1110px;
 }
 
 .team-images {
