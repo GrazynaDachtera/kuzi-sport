@@ -281,7 +281,6 @@
     justify-content: center;
     align-items: center;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
     transition: opacity 0.3s;
 }
 
@@ -290,11 +289,17 @@
 }
 
 .img-text {
-    color: #fff; /* Text color */
-    font-weight: bold;
-    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    font-size: 12px;
     text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+
 }
+
 
 
 @media (max-width: 768px) {
