@@ -28,7 +28,6 @@
     margin-bottom: 2px;
 }
 
-/* Base styles for desktop */
 #main-menu {
     display: flex;
     align-items: center;
@@ -64,7 +63,6 @@
     border-bottom: 2px solid black;
 }
 
-/* Media query for larger screens */
 @media (min-width: 769px) {
     .headline-section {
         display: flex;
@@ -114,8 +112,13 @@
 }
 
 
-/* Media query for mobile */
 @media (max-width: 768px) {
+
+    .headline-img {
+        height: 48px;
+        width: 140px;
+    }
+    
     #main-menu {
         position: fixed;
         top: 20px;
