@@ -118,7 +118,7 @@
         height: 48px;
         width: 140px;
     }
-    
+
     #main-menu {
         position: fixed;
         top: 20px;
@@ -490,6 +490,7 @@ button[type="submit"]:hover {
     margin: 10px auto;
     max-width: 40%;
 }
+
 
 .footer-section1 {
     display: flex;
