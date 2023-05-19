@@ -231,6 +231,13 @@ footer h2 {
     font-size: 14px;
 }
 
+@media (max-width: 767px) {
+    .contact-adress {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 .contact-item {
     display: flex;
     align-items: center;
@@ -433,6 +440,5 @@ button[type="submit"]:hover {
     font-weight: 300;
     line-height: 24px;
     word-spacing: 1px;
-
 
 }
