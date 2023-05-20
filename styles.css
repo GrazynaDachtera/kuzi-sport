@@ -351,6 +351,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .caption {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .image-container:hover .caption {
     opacity: 1;
 }
