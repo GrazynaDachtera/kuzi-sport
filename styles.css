@@ -267,6 +267,13 @@
 
 }
 
+@media (max-width: 768px) {
+    .body-section h2 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 #myButton {
     background-color: #1169b6;
     color: #FFFFFF;
