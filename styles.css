@@ -329,7 +329,7 @@
 }
 
 @media (max-width: 768px) {
-    .image-container {
+    .gallery-img {
         width: 100%;
     }
 }
