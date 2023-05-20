@@ -328,6 +328,11 @@
     margin: 10px auto;
 }
 
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%;
+    }
+}
 .caption {
     position: absolute;
     top: 50%;
