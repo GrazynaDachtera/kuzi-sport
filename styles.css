@@ -212,6 +212,12 @@
     margin: 10px auto;
 }
 
+@media (max-width: 768px) {
+    .body-img {
+        width: 100%;
+    }
+}
+
 .about-us-container {
     display: flex;
     flex-direction: row-reverse;
