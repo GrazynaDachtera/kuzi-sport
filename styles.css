@@ -240,7 +240,7 @@
     justify-content: center;
     display: flex;
     box-sizing: border-box;
-    width: 65%;
+    width: 100%;
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -301,7 +301,7 @@
     height: 350px;
     overflow: hidden;
     position: relative;
-    margin: 0 0 10px 0;
+    margin: 0 auto 10px;
     cursor: pointer;
 }
 
@@ -327,6 +327,28 @@
 
 .slider:hover .slides {
     transform: translateX(-350px);
+}
+
+@media (max-width: 768px) {
+    .about-us-container {
+        flex-direction: column; /* Revert to column layout on mobile */
+    }
+
+    .slider {
+        max-width: 100%; /* Full width on mobile */
+        height: auto; /* Adjust height automatically on mobile */
+        margin-bottom: 10px; /* Add bottom margin for spacing on mobile */
+    }
+
+    .slides {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Adjust height automatically on mobile */
+    }
+
+    .slides img {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Adjust height automatically on mobile */
+    }
 }
 
 .image-container {
