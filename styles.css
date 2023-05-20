@@ -474,6 +474,7 @@
     .contact-adress {
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     .contact-item {
@@ -486,7 +487,7 @@
     }
 
     .contact-image {
-        margin: 0 auto 10px;
+        margin: 0 auto;
     }
 }
 
