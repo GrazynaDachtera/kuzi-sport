@@ -330,14 +330,15 @@
 }
 
 @media (max-width: 768px) {
-    .about-us-container {
-        flex-direction: column; /* Revert to column layout on mobile */
+    .about-us-container-text {
+        width: 100%; /* Full width on mobile */
+        margin: 10px 0; /* Add top and bottom margin for spacing on mobile */
     }
 
     .slider {
         max-width: 100%; /* Full width on mobile */
         height: auto; /* Adjust height automatically on mobile */
-        margin-bottom: 10px; /* Add bottom margin for spacing on mobile */
+        margin: 0 auto 10px; /* Center horizontally and add bottom margin for spacing on mobile */
     }
 
     .slides {
