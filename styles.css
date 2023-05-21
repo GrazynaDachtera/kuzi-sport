@@ -635,6 +635,14 @@ button[type="submit"]:hover {
 
 }
 
+@media (max-width: 768px) {
+
+    .media-icons {
+        max-width: 20%;
+
+    }
+}
+
 .instagram-icon {
     margin-left: 10px;
 }
