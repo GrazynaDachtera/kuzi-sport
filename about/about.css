@@ -116,6 +116,12 @@
 
 /* Media query for mobile */
 @media (max-width: 768px) {
+
+    .headline-img {
+        height: 48px;
+        width: 140px;
+    }
+
     #main-menu {
         position: fixed;
         top: 20px;
@@ -126,14 +132,14 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 200px;
+        height: 100px;
         justify-content: center;
     }
 
     #menu-bar {
         display: block;
-        margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .nav {
@@ -200,7 +206,7 @@
 }
 
 .body-section h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 1rem;
     color: #000000;
@@ -210,10 +216,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px auto;
+    margin: 50px auto;
     font-family: 'Raleway', sans-serif;
-    margin-top: 150px;
-
 }
 
 .about-us-container-text {
