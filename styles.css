@@ -148,6 +148,7 @@
         background-color: #FFFFFF;
         z-index: 999;
         overflow-y: scroll;
+        flex-direction: column;
     }
 
     .nav li {
@@ -156,6 +157,7 @@
         padding: 10px;
         text-align: center;
         border-bottom: 1px solid #ECECEC;
+        flex-direction: column;
     }
 
     .nav li:last-child {
@@ -165,6 +167,7 @@
     .nav li a {
         display: flex;
         font-size: 16px;
+        flex-direction: column;
     }
 
     .nav.active {
