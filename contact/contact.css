@@ -128,14 +128,14 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 200px;
+        height: 100px;
         justify-content: center;
     }
 
     #menu-bar {
         display: block;
-        margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .nav {
@@ -212,9 +212,14 @@ footer h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10px auto;
-    margin-top: 150px;
+    margin: 50px auto;
     font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .footer h2 {
+        margin-top: 10px;
+    }
 }
 
 .contact-adress {
