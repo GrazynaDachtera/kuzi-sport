@@ -335,19 +335,15 @@
     }
 
     .slider {
-        max-width: 100%; /* Full width on mobile */
-        height: auto; /* Adjust height automatically on mobile */
-        margin-bottom: 10px; /* Add bottom margin for spacing on mobile */
+        display: none;
     }
 
     .slides {
-        width: 100%; /* Full width on mobile */
-        height: auto; /* Adjust height automatically on mobile */
+        display: none;
     }
 
     .slides img {
-        width: 100%; /* Full width on mobile */
-        height: auto; /* Adjust height automatically on mobile */
+        display: none;
     }
 }
 
