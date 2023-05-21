@@ -117,6 +117,7 @@
     .headline-img {
         height: 48px;
         width: 140px;
+        justify-content: center;
     }
 
     #main-menu {
@@ -129,14 +130,13 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 200px;
+        height: 100px;
         justify-content: center;
     }
 
     #menu-bar {
         display: block;
-        margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 0;
     }
 
     .nav {
@@ -483,7 +483,7 @@
     }
 
     .contact-image {
-        margin: 0 auto;
+        flex-basis: 100%;
     }
 }
 
