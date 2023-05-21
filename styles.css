@@ -473,8 +473,6 @@
     .contact-adress {
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        margin: 10px auto
     }
 
     .contact-item {
@@ -487,7 +485,7 @@
     }
 
     .contact-image {
-        flex-basis: 100%;
+        margin: 0 auto 10px;
     }
 }
 
