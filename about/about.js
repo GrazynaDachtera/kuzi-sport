@@ -1,11 +1,7 @@
-function menuOnClick() {
+function toggleMenu() {
     const nav = document.getElementById("nav");
     nav.classList.toggle("active");
 }
-
-document.getElementById("myButton").addEventListener("click", function() {
-    window.location.href = "about/about.html";
-});
 
 const form = document.getElementById('contact-form');
 
