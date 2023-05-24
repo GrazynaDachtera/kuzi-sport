@@ -259,6 +259,7 @@
 .img {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

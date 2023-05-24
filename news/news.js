@@ -15,7 +15,6 @@ form.addEventListener('submit', (e) => {
     const email = form.elements.email.value;
     const message = form.elements.message.value;
 
-    // Do something with the email and message data, such as sending it to a server
     console.log(`Email: ${email}, Message: ${message}`);
 
     form.reset();
