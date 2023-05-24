@@ -63,6 +63,17 @@
     border-bottom: 2px solid black;
 }
 
+.nav .submenu {
+    display: none;
+}
+
+.nav .submenu.show {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+}
+
 @media (min-width: 769px) {
     .headline-section {
         display: flex;
@@ -113,7 +124,6 @@
 
 
 @media (max-width: 768px) {
-
     .headline-img {
         height: 48px;
         width: 140px;
@@ -126,7 +136,7 @@
         right: 0;
     }
 
-    #menu-wrapper:before {
+    #menu-bar:before {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -134,7 +144,7 @@
         justify-content: center;
     }
 
-    #menu-wrapper:after {
+    #menu-bar:after {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -147,7 +157,6 @@
         margin-top: 0;
         justify-content: center;
         align-items: center;
-
     }
 
     .nav {
