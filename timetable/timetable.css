@@ -237,8 +237,21 @@
 
 }
 
-.timetable-container-text {
+@media (max-width: 768px) {
+    .body-section h2 {
+        margin: 30px auto;
+    }
+}
 
+.timetable-container-text {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
 }
 
 .footer-end-copyright {
