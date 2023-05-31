@@ -231,7 +231,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px auto;
+    margin: 10px auto;
     font-family: 'Raleway', sans-serif;
     margin-top: 150px;
 }
@@ -243,7 +243,7 @@
 }
 
 .sports-container {
-    max-width: 500px;
+    max-width: 1110px;
     margin: 10px auto;
 }
 
