@@ -234,7 +234,12 @@
     margin: 30px auto;
     font-family: 'Raleway', sans-serif;
     margin-top: 150px;
+}
 
+@media (max-width: 768px) {
+    .body-section h2 {
+        margin: 30px auto;
+    }
 }
 
 .sports-container {
