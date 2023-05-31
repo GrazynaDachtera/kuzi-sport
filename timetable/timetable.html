@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat:wght@100;200;400&display=swap"
           rel="stylesheet">
+
+    <script type="text/javascript" src="//idancesoft.com/motor/plugins/embed.js"></script>
 </head>
 <body>
 <section class="headline-section">
@@ -51,11 +53,14 @@
 <section class="body-section">
     <h2 class="timetable" id="timetable">GRAFIK ZAJĘĆ</h2>
     <div class="timetable-container-text">
-
+        <div id='idancesoft_schedule'></div>
     </div>
 </section>
 
 <script src="timetable.js"></script>
+<script>
+    make_module('schedule', 1000017051, '1564', '', 'undefined', 'undefined', 'undefined', 'idancesoft_schedule');
+</script>
 </body>
 
 <footer>
