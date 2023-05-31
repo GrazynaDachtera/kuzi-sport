@@ -237,6 +237,12 @@
 
 }
 
+@media (max-width: 768px) {
+    .body-section h2 {
+        margin: 30px auto;
+    }
+}
+
 .pricelist-container-text {
 
 }
