@@ -241,7 +241,7 @@
     font-family: 'Raleway', sans-serif;
     padding: 15px 30px;
     font-size: 20px;
-    color: white;
+    color: #FAF7F7;
     background-color: #1169b6;
     border: none;
     cursor: pointer;
@@ -323,7 +323,7 @@
 
 #myButton {
     background-color: #1169b6;
-    color: #FFFFFF;
+    color: #FAF7F7;
     padding: 12px 35px;
     text-align: center;
     text-decoration: none;
@@ -412,15 +412,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
-    padding: 15px 30px;
-    font-size: 20px;
-    color: white;
-    background-color: #1169b6;
+    text-align: center;
+    padding: 15px 35px;
+    font-size: 22px;
+    color: #FAF7F7;
+    background-color: #494949;
     border: none;
     cursor: pointer;
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: 35px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .gallery-button:hover {
@@ -432,6 +437,11 @@
 @media (max-width: 768px) {
     .gallery-img {
         width: 100%;
+    }
+
+    .gallery-button {
+        top: 50%;
+        left: 50%;
     }
 }
 
@@ -568,7 +578,7 @@ button[type="submit"] {
     background-color: #1169b6;
     border: none;
     cursor: pointer;
-    color: #FFFFFF;
+    color: #FAF7F7;
     padding: 12px 35px;
     text-align: center;
     text-decoration: none;
@@ -643,7 +653,7 @@ button[type="submit"]:hover {
     overflow: hidden;
     justify-content: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #FAF7F7;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 300;
