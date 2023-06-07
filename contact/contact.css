@@ -391,11 +391,13 @@ button[type="submit"] {
     font-family: 'Raleway', sans-serif;
     margin-top: 2px;
     margin-bottom: 20px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 button[type="submit"]:hover {
     background-color: #eec700;
     transition-duration: 500ms;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .form-title h3 {
