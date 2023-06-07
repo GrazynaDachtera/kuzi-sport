@@ -474,7 +474,6 @@
     margin: 10px auto;
     font-size: 14px;
 }
-
 .contact-item {
     display: flex;
     align-items: center;
@@ -528,7 +527,11 @@
 
     .contact-adress {
         flex-wrap: wrap;
+        overflow: hidden;
         justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 10%;
     }
 
     .contact-item {
