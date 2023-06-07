@@ -331,7 +331,11 @@
 
     .contact-adress {
         flex-wrap: wrap;
+        overflow: hidden;
         justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 10%;
     }
 
     .contact-item {
