@@ -399,7 +399,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #eec700;
+    background-color: #69B611;
     transition-duration: 500ms;
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
 }
