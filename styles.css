@@ -328,7 +328,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 35px;
     border: none;
@@ -414,7 +414,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding: 15px 35px;
-    font-size: 22px;
+    font-size: 20px;
     color: #FAF7F7;
     background-color: #DD7973;
     border: none;
@@ -586,7 +586,7 @@ button[type="submit"] {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 35px;
     font-family: 'Raleway', sans-serif;
     margin-top: 2px;
