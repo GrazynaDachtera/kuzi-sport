@@ -225,7 +225,7 @@
 
 }
 
-.body-section h2 {
+.timetable {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1rem;
@@ -239,6 +239,27 @@
     margin: 30px auto;
     font-family: 'Raleway', sans-serif;
     margin-top: 150px;
+
+}
+
+.sign-up {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    background-color: #FFFFFF;
+    max-width: 1110px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-up:hover {
+    font-weight: 500;
 
 }
 
