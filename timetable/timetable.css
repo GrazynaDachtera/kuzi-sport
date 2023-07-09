@@ -265,8 +265,15 @@
 }
 
 @media (max-width: 768px) {
-    .body-section h2 {
+    .timetable {
         margin: 30px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .sign-up {
+        font-weight: 400;
+        color: #DF0E0E;
     }
 }
 
