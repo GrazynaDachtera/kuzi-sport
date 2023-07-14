@@ -301,12 +301,6 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .footer-end {
-        margin-top: 150px;
-        display: inline-block;
-    }
-}
 
 .footer-end * {
     background-color: #000000;
