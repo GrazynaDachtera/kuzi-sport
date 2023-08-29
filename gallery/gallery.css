@@ -193,6 +193,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    li a[href="gallery.html"] {
+        display: none;
+    }
+}
+
 #bar1, #bar2, #bar3 {
     background-color: #000;
     height: 1px;
@@ -249,7 +255,7 @@
     margin-top: 10px;
 }
 
-.galeria1 {
+.galeria2 {
     margin-bottom: 10px;
 }
 
