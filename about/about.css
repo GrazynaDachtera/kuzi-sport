@@ -243,7 +243,11 @@
         margin: 30px auto;
     }
 }
-
+@media (max-width: 768px) {
+    li a[href="../gallery/gallery.html"] {
+        display: none;
+    }
+}
 .about-us-container-text {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
