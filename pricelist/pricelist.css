@@ -252,8 +252,20 @@
     }
 }
 
-.pricelist-container-text {
+.pricelist1 {
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+}
 
+@media (max-width: 768px) {
+    .pricelist1 {
+        width: 100%;
+        margin-top: 30px;
+    }
 }
 
 .logotype-section {
