@@ -193,7 +193,7 @@
 }
 
 @media (max-width: 768px) {
-    li a[href="../gallery/gallery.html"] {
+    li a[href="gallery/gallery.html"] {
         display: none;
     }
 }
