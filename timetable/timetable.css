@@ -292,6 +292,17 @@
     text-decoration: none;
 }
 
+.logotype-section {
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
 .footer-end-copyright {
     overflow: hidden;
     color: #FFFFFF;

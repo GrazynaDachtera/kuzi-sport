@@ -629,7 +629,7 @@ button[type="submit"]:hover {
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px auto;
+    margin: 0 auto;
     max-width: 100%;
 }
 
