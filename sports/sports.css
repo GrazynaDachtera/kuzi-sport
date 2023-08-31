@@ -64,7 +64,6 @@
     border-bottom: 2px solid black;
 }
 
-/* Media query for larger screens */
 @media (min-width: 769px) {
     .headline-section {
         display: flex;
@@ -247,7 +246,7 @@
 
 @media (max-width: 768px) {
     .body-section h2 {
-        margin: 30px auto;
+        margin: 10px auto;
     }
 }
 
