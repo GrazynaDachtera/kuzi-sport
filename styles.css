@@ -192,11 +192,7 @@
     }
 }
 
-@media (max-width: 768px) {
-    li a[href="gallery/gallery.html"] {
-        display: none;
-    }
-}
+
 
 #bar1, #bar2, #bar3 {
     background-color: #000;
