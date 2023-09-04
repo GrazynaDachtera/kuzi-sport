@@ -350,6 +350,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.img-text p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .img-text p {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
 
 @media (max-width: 768px) {
     .img-container {
