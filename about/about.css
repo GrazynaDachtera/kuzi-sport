@@ -241,6 +241,7 @@
 @media (max-width: 768px) {
     .body-section h2 {
         margin: 10px auto;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -303,6 +304,7 @@
 @media (max-width: 768px) {
     .img {
         display: none;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -328,7 +330,7 @@
         width: 100%;
         height: auto;
         opacity: 1;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 12px;
     }
 }
@@ -352,12 +354,14 @@
 @media (max-width: 768px) {
     .img-container {
         flex-basis: calc(50% - 20px);
+        font-family: 'Raleway', sans-serif;
     }
 }
 
 @media (max-width: 480px) {
     .img-container {
         flex-basis: 100%;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
