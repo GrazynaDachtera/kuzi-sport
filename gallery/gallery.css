@@ -225,7 +225,7 @@
 
 }
 
-.body-section h2 {
+.main-gallery h2 {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1rem;
@@ -242,105 +242,66 @@
 }
 
 @media (max-width: 768px) {
-    .body-section h2 {
+    .main-gallery h2 {
         margin: 30px auto;
     }
 }
 
-.galeria {
-    margin-top: 10px;
-}
-
-.galeria2 {
-    margin-bottom: 10px;
-}
-
 @media (max-width: 768px) {
-    .galeria {
+    .gallery {
         display: flex;
-        flex-direction: column;
-        overflow: hidden;
         justify-content: center;
         align-items: center;
-        margin: 10px auto;
-
     }
 }
-.image-container {
-    position: relative;
+
+.main-gallery {
+    text-align: center;
+}
+
+.gallery {
+    max-width: 1110px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-row {
+    display: flex; /* Display the row of images */
+    justify-content: center; /* Center the row horizontally */
+    align-items: center; /* Center the row vertically */
+    flex-wrap: wrap; /* Allow images to wrap to the next row if needed */
+}
+
+.gallery-ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.gallery-ul li {
     display: inline-block;
-    cursor: pointer;
-    margin: 10px auto;
+    margin: 10px;
 }
 
-.thumbnail {
-    width: 200px;
-    height: auto;
+.gallery-img {
+
+    height: 300px;
+    width: 230px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-size: cover;
+    flex-direction: row;
 }
 
-.full-size {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 9999;
-}
-
-.image-container1 {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.thumbnail1 {
-    width: 200px;
-    height: auto;
-}
-
-.full-size1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 9999;
-}
-
-.image-container2 {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.thumbnail2 {
-    width: 200px;
-    height: auto;
-}
-
-.full-size2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 9999;
-}
-
-.image-container3 {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.thumbnail3 {
-    width: 200px;
-    height: auto;
-}
-
-.full-size3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    z-index: 9999;
+.gallery-img:hover {
+    transform: scale(1.4);
 }
 
 .logotype-section {
