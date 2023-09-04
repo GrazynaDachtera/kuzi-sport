@@ -21,10 +21,10 @@ form.addEventListener('submit', (e) => {
 });
 
 const thumbnail1 = document.querySelector(".thumbnail1");
-const fullSize1ImageURL = "pictures/BK6A3596.jpg";
+const fullSize1ImageURL = "../gallery/pictures/gimnastyka.JPG";
 
 thumbnail1.addEventListener("click", function() {
-    window.open(fullSize1ImageURL, "pictures/BK6A3596.jpg");
+    window.open(fullSize1ImageURL, "../gallery/pictures/gimnastyka.JPG");
 });
 
 const thumbnail2 = document.querySelector(".thumbnail2");
@@ -40,4 +40,5 @@ const fullSize3ImageURL = "pictures/BK6A3528.jpg";
 thumbnail3.addEventListener("click", function() {
     window.open(fullSize3ImageURL, "pictures/BK6A3528.jpg");
 });
+
 

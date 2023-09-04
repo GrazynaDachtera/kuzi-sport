@@ -249,7 +249,25 @@
 }
 
 .blog-container-text {
+    overflow: hidden;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 800px;
+}
 
+.blog-container-text p {
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-regulation {
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #DF0E0E;
 }
 
 .logotype-section {
