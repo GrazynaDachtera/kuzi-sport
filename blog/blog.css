@@ -239,6 +239,7 @@
     margin: 30px auto;
     font-family: 'Raleway', sans-serif;
     margin-top: 150px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
