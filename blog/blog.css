@@ -282,7 +282,7 @@
     cursor: pointer;
     border-radius: 35px;
     border: none;
-    margin-bottom: 20px;
+    margin: 10px auto;
     font-family: 'Raleway', sans-serif;
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
 }
