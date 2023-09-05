@@ -432,6 +432,17 @@ button[type="submit"]:hover {
     max-width: 100%;
 }
 
+@media (max-width: 768px) {
+    .map-section {
+        margin: 0 auto;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
 .logotype-section {
     overflow: hidden;
     justify-content: center;
