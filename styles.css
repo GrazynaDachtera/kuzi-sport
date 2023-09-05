@@ -617,7 +617,6 @@ button[type="submit"]:hover {
 
 .map-section {
     font-family: 'Raleway', sans-serif;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;

@@ -156,13 +156,13 @@
 
     .nav {
         display: none;
-        position: relative;
-        top: 100%;
+        position: absolute;
+        top: 50%;
         left: 0;
         width: 100%;
         background-color: #FFFFFF;
         z-index: 999;
-        overflow: visible;
+        overflow-y: auto;
         flex-direction: column;
     }
 
@@ -423,7 +423,6 @@ button[type="submit"]:hover {
 
 .map-section {
     font-family: 'Raleway', sans-serif;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
