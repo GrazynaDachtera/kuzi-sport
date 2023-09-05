@@ -632,6 +632,8 @@ button[type="submit"]:hover {
         max-width: 100%;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
+        box-sizing: border-box;
     }
 }
 
