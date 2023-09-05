@@ -227,12 +227,22 @@
 }
 
 .preview {
-    overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+
+    .preview {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
 
 .body-section h2 {
     font-size: 30px;
@@ -255,10 +265,6 @@
     .body-section h2 {
         margin: 10px auto;
     }
-}
-
-.news-container-text {
-
 }
 
 .logotype-section {
