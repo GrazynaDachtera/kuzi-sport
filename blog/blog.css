@@ -63,7 +63,6 @@
     border-bottom: 2px solid black;
 }
 
-/* Media query for larger screens */
 @media (min-width: 769px) {
     .headline-section {
         display: flex;
