@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat:wght@100;200;400&display=swap"
           rel="stylesheet">
 
-
+    <script type="text/javascript" src="//idancesoft.com/motor/plugins/embed.js"></script>
 </head>
 <body>
 <section class="headline-section">
@@ -50,27 +50,23 @@
     </div>
 </section>
 
-    <section class="body-section">
-
-        <div class="h2" id="h2">GRAFIK ZAJĘĆ</div>
-
+    <section>
+    <h2 class="timetable" id="timetable">GRAFIK ZAJĘĆ</h2>
         <div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGKFnRvLImY4wXzN_dzVH5Y15O1RoAe1ymjHEe7GuGm-WNFw/viewform?vc=0&c=0&w=1&flr=0" title="Zapisz się!" rel="sign-up" class="sign-up">
                 <h2 class="sign-up">► Zapisy na rok szkolny 2023/24</h2>
             </a>
         </div>
 
-    <div class="timetable-container">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-0.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-1.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-2.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-3.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-4.jpg" alt="grafik" class="grafik">
+    <div class="timetable-container-text">
+        <div id='idancesoft_schedule'></div>
     </div>
     </section>
 
 <script src="timetable.js"></script>
-
+<script>
+    make_module('schedule', 1000017051, '1564', '', 'undefined', 'undefined', 'undefined', 'idancesoft_schedule');
+</script>
 <div class="logotype-section">
     <img src="pictures/Zrzut-ekranu-2019-01-27-o-132121.webp" alt="logotype1" class="logotype1" width="78px" height="41px">
     <img src="pictures/Zrzut-ekranu-2019-05-9-o-133131.webp" alt="logotype2" class="logotype2" width="41px" height="41px">

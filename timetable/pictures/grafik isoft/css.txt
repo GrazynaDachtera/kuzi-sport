@@ -28,6 +28,7 @@
     margin-bottom: 2px;
 }
 
+/* Base styles for desktop */
 #main-menu {
     display: flex;
     align-items: center;
@@ -63,7 +64,7 @@
     border-bottom: 2px solid black;
 }
 
-
+/* Media query for larger screens */
 @media (min-width: 769px) {
     .headline-section {
         display: flex;
@@ -192,6 +193,8 @@
     }
 }
 
+
+
 #bar1, #bar2, #bar3 {
     background-color: #000;
     height: 1px;
@@ -222,7 +225,7 @@
 
 }
 
-.h2 {
+.timetable {
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1rem;
@@ -236,13 +239,7 @@
     margin: 30px auto;
     font-family: 'Raleway', sans-serif;
     margin-top: 150px;
-}
 
-@media (max-width: 768px) {
-    .h2 {
-        margin: 10px auto;
-        font-family: 'Raleway', sans-serif;
-    }
 }
 
 .sign-up {
@@ -280,30 +277,15 @@
     }
 }
 
-.timetable-container {
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 1110px;
+.timetable-container-text {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
     margin: 0 auto;
-}
-
-.grafik {
     overflow: hidden;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 20px auto;
-
-}
-
-@media (max-width: 768px) {
-    .grafik {
-        width: 100%;
-        height: 100%;
-        margin-top: 10px;
-    }
+    text-decoration: none;
 }
 
 
