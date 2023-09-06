@@ -156,13 +156,13 @@
 
     .nav {
         display: none;
-        position: absolute;
-        top: 50%;
+        position: relative;
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: #FFFFFF;
         z-index: 999;
-        overflow-y: auto;
+        overflow: visible;
         flex-direction: column;
     }
 
