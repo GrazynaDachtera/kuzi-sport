@@ -615,25 +615,19 @@ button[type="submit"]:hover {
     font-family: 'Raleway', sans-serif;
 }
 
-.map-section {
-    font-family: 'Raleway', sans-serif;
+.google-maps iframe {
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0 auto;
-    max-width: 100%;
 }
 
 @media (max-width: 768px) {
-    .map-section {
+    .google-maps iframe {
+        width: 100%;
+        height: 100%;
         margin: 0 auto;
-        max-width: 100%;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        box-sizing: border-box;
     }
 }
 
