@@ -615,6 +615,13 @@ button[type="submit"]:hover {
     font-family: 'Raleway', sans-serif;
 }
 
+.google-maps {
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .google-maps iframe {
     overflow: hidden;
     justify-content: center;
