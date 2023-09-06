@@ -464,23 +464,39 @@
      font-family: 'Raleway', sans-serif;
  }
 
+
 .contact-adress {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+    position: sticky;
     overflow: hidden;
     text-align: center;
+    justify-content: center;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     max-width: 900px;
-    margin: 10px auto;
+    margin: 0 auto;
     font-size: 14px;
 }
+
+@media (max-width: 768px) {
+    .contact-adress {
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+}
+
 .contact-item {
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-item {
+        flex-basis: 100%;
+        margin: 10px auto;
+        margin-left: 15%;
+    }
 }
 
 .contact-text {
@@ -488,9 +504,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .contact-text {
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+}
+
 .contact-image {
     flex-basis: 30%;
     margin: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .contact-image {
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
 }
 
 .contact-text p {
