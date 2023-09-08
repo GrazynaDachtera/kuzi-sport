@@ -352,6 +352,7 @@
         align-items: center;
         text-align: center;
         left: 10%;
+        margin-top: 15px;
     }
 
     .contact-item {
@@ -449,6 +450,7 @@ button[type="submit"]:hover {
 @media (max-width: 768px) {
     .google-maps iframe {
         margin: 0 auto;
+        height: 100%;
     }
 }
 
