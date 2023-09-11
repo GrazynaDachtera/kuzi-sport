@@ -434,10 +434,10 @@
 
 @media (max-width: 768px) {
     .gallery-button {
-        padding: 10px 25px;
+        padding: 8px 20px;
     }
     .gallery-button:hover {
-        padding: 10px 25px;
+        padding: 8px 20px;
     }
 }
 
