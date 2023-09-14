@@ -8,11 +8,30 @@ document.getElementById("myButton").addEventListener("click", function() {
     window.location.href = "about/about.html";
 });
 
+window.onload = function () {
+    // Load the EmailJS SDK script
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js';
+    script.async = true;
+    script.onload = function () {
+        // Initialize EmailJS after the script has loaded
+        emailjs.init('CnIsQ_v4kq7hjoLWW');
 
+        // Attach the event listener once EmailJS is ready
+        var contactForm = document.getElementById('contact-form-for-email-kuzi')
+        contactForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm('service_orpvnm6', 'template_quanneo', this)
+                .then(function () {
+                    console.log('SUCCESS!');
+                    contactForm.reset();
+                }, function (error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    };
 
-
-
-
-
-
-
+    // Append the EmailJS SDK script to the document
+    document.head.appendChild(script);
+};
