@@ -3,12 +3,6 @@ function toggleMenu() {
     nav.classList.toggle("active");
 }
 
-
-document.getElementById("myButton").addEventListener("click", function() {
-    window.location.href = "about/about.html";
-});
-
-
 window.onload = function () {
     // Load the EmailJS SDK script
     var script = document.createElement('script');
