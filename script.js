@@ -15,14 +15,14 @@ window.onload = function () {
     script.async = true;
     script.onload = function () {
         // Initialize EmailJS after the script has loaded
-        emailjs.init('CnIsQ_v4kq7hjoLWW');
+        emailjs.init('O7cFRHfbQC40hpcOT');
 
         // Attach the event listener once EmailJS is ready
         var contactForm = document.getElementById('contact-form-for-email-kuzi')
         contactForm.addEventListener('submit', function (event) {
             event.preventDefault();
             // these IDs from the previous steps
-            emailjs.sendForm('service_orpvnm6', 'template_quanneo', this)
+            emailjs.sendForm('service_gb3ea08', 'template_hw8eogz', this)
                 .then(function () {
                     console.log('SUCCESS!');
                     contactForm.reset();
