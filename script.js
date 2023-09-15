@@ -15,7 +15,8 @@ window.onload = function () {
     script.async = true;
     script.onload = function () {
         // Initialize EmailJS after the script has loaded
-        emailjs.init('O7cFRHfbQC40hpcOT');
+        var public_key = 'O7cFRHfbQC40hpcOT'
+        emailjs.init(public_key);
 
         // Attach the event listener once EmailJS is ready
         var contactForm = document.getElementById('contact-form-for-email-kuzi')
