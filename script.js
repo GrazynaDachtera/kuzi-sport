@@ -23,7 +23,9 @@ window.onload = function () {
         contactForm.addEventListener('submit', function (event) {
             event.preventDefault();
             // these IDs from the previous steps
-            emailjs.sendForm('service_gb3ea08', 'template_iyma3le', this)
+            var service_id = 'service_gb3ea08'
+            var template_id = 'template_iyma3le'
+            emailjs.sendForm(service_id, template_id, this)
                 .then(function () {
                     console.log('SUCCESS!');
                     contactForm.reset();
