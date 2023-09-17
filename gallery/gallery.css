@@ -325,6 +325,24 @@
     }
 }
 
+.gallery-item {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0s ease-in-out;
+    opacity: 1;
+}
+
+.gallery-item:hover .logo {
+    opacity: 0;
+}
+
+
 .logotype-section {
     overflow: hidden;
     justify-content: center;
