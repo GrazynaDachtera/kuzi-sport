@@ -297,10 +297,12 @@
     box-sizing: border-box;
     background-size: cover;
     flex-direction: row;
+    position: relative;
 }
 
 .gallery-img:hover {
     transform: scale(1.6);
+    z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
