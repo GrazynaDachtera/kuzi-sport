@@ -28,7 +28,6 @@
     margin-bottom: 2px;
 }
 
-/* Base styles for desktop */
 #main-menu {
     display: flex;
     align-items: center;
@@ -235,7 +234,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px auto;
+    margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     margin-top: 150px;
 }
@@ -247,8 +246,10 @@
 }
 
 .sports-container {
+    margin: 0 auto;
+    align-items: center;
     max-width: 1110px;
-    margin: 10px auto;
+    justify-content: center;
 }
 
 .row {
