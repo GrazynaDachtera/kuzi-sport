@@ -252,37 +252,6 @@
     justify-content: center;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.img-container {
-    position: relative;
-    flex-basis: calc(33.33% - 20px);
-    margin: 5px;
-}
-
-.img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .img-container {
-        flex-basis: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 480px) {
-    .img-container {
-        flex-basis: 100%;
-    }
-}
-
 .logotype-section {
     overflow: hidden;
     justify-content: center;
