@@ -1,6 +1,7 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
+
 }
 
 .headline-section {
@@ -490,7 +491,7 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     max-width: 1110px;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .about-us-container-text {
@@ -522,7 +523,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 30px auto;
+    margin: 10px auto;
     max-width: 1110px;
     font-family: 'Raleway', sans-serif;
 
@@ -532,7 +533,7 @@
     .body-section h2 {
         width: 100%;
         text-align: center;
-        margin: 30px auto;
+        margin: 10px auto;
     }
 }
 
@@ -561,23 +562,27 @@
 }
 
 .slider {
-    max-width: 350px;
-    height: 350px;
+    max-width: 300px;
+    height: 300px;
     overflow: hidden;
     position: relative;
     margin: 0 auto 10px;
+    border-radius: 300px;
+
 }
 
 .slides {
     display: flex;
-    width: calc(2 * 350px);
-    height: 350px;
+    width: calc(2 * 300px);
+    height: 300px;
     transition: transform 0.4s ease-in-out;
+    border-radius: 300px;
 }
 
 .slides img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
 }
 
 .slide-1 {
@@ -585,11 +590,11 @@
 }
 
 .slide-2 {
-    transform: translateX(-350px);
+    transform: translateX(-300px);
 }
 
 .slider:hover .slides {
-    transform: translateX(-350px);
+    transform: translateX(-300px);
 }
 
 @media (max-width: 768px) {
