@@ -566,9 +566,9 @@
     height: 300px;
     overflow: hidden;
     position: relative;
-    margin: 0 auto 10px;
+    margin: 6px auto 10px;
     border-radius: 300px;
-
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .slides {
@@ -576,13 +576,11 @@
     width: calc(2 * 300px);
     height: 300px;
     transition: transform 0.4s ease-in-out;
-    border-radius: 300px;
 }
 
 .slides img {
     width: 300px;
     height: 300px;
-    border-radius: 300px;
 }
 
 .slide-1 {
