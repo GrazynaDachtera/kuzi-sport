@@ -39,4 +39,46 @@ window.onload = function () {
     document.head.appendChild(script);
 };
 
+const slider = document.getElementById('first-slider');
+let currentSlide = 0;
+const numSlides = slider.children.length;
+const slideWidth = slider.offsetWidth;
+let transitioning = false;
+
+function goToSlide(slide) {
+    if (transitioning) return;
+
+    // Limit the range of currentSlide to ensure it stays within valid slide indices
+    currentSlide = Math.min(Math.max(slide, 0), numSlides - 1);
+
+    transitioning = true;
+    slider.style.transition = "transform 1s ease-in-out";
+    slider.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+}
+
+function prevSlide() {
+    goToSlide(currentSlide - 1);
+}
+
+function nextSlide() {
+    if (currentSlide < numSlides - 1) {
+        goToSlide(currentSlide + 1);
+    }
+}
+
+slider.addEventListener('transitionend', () => {
+    transitioning = false;
+});
+
+// Initial slide position
+goToSlide(0);
+
+
+
+
+
+
+
+
+
 
