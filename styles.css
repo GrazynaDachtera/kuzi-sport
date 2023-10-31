@@ -315,8 +315,10 @@
 
 @media (max-width: 768px) {
     .button {
-        top: 85%;
-        left: 80%;
+        top: 27%;
+        left: 85%;
+        padding: 10px 25px;
+        font-size: 18px;
     }
 }
 
