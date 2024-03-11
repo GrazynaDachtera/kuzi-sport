@@ -227,10 +227,17 @@
 }
 
 .preview {
-    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    display: block;
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 @media (max-width: 768px) {
@@ -238,7 +245,9 @@
     .preview {
         align-items: center;
         text-align: center;
-        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
