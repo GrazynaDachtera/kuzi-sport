@@ -1,112 +1,784 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>KUZI SPORT</title>
-    <link rel="stylesheet" href="timetable.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat&display=swap"
-          rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat&family=Raleway:wght@300;400&display=swap"
-          rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat:wght@100;200;400&display=swap"
-          rel="stylesheet">
-
-
-</head>
-<body>
-<section class="headline-section">
-    <div class="menu">
+    <link rel="stylesheet" href="timetable.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat&family=Raleway:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&family=Montserrat:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="headline-section">
+      <div class="menu">
         <a href="../index.html">
-            <img src="pictures/LOGO.png" alt="headline-img" class="headline-img">
+          <img
+            src="pictures/LOGO.png"
+            alt="headline-img"
+            class="headline-img"
+          />
         </a>
         <div id="menu-wrapper">
-            <div id="menu-bar" onclick="toggleMenu()">
-                <div id="bar1" class="bar"></div>
-                <div id="bar2" class="bar"></div>
-                <div id="bar3" class="bar"></div>
-            </div>
-            <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="../about/about.html">O NAS</a></li>
-                    <li><a href="../news/news.html">AKTUALNOŚCI</a></li>
-                    <li><a href="../sports/sports.html">DYSCYPLINY</a></li>
-                    <li><a href="timetable.html">GRAFIK</a></li>
-                    <li><a href="../pricelist/pricelist.html">CENNIK</a></li>
-                    <li><a href="../gallery/gallery.html">GALERIA</a></li>
-                    <li><a href="../blog/blog.html">REGULAMIN</a></li>
-                    <li><a href="../reviews/reviews.html">OPINIE</a></li>
-                    <li><a href="../contact/contact.html">KONTAKT</a></li>
-                </ul>
-            </nav>
+          <div id="menu-bar" onclick="toggleMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <nav class="nav" id="nav">
+            <ul>
+              <li><a href="../about/about.html">O NAS</a></li>
+              <li><a href="../news/news.html">AKTUALNOŚCI</a></li>
+              <li><a href="../sports/sports.html">DYSCYPLINY</a></li>
+              <li><a href="timetable.html">GRAFIK</a></li>
+              <li><a href="../pricelist/pricelist.html">CENNIK</a></li>
+              <li><a href="../gallery/gallery.html">GALERIA</a></li>
+              <li><a href="../blog/blog.html">REGULAMIN</a></li>
+              <li><a href="../reviews/reviews.html">OPINIE</a></li>
+              <li><a href="../contact/contact.html">KONTAKT</a></li>
+            </ul>
+          </nav>
         </div>
-    </div>
-</section>
-
-    <section class="body-section">
-
-        <div class="h2" id="h2">GRAFIK ZAJĘĆ</div>
-
-        <div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGKFnRvLImY4wXzN_dzVH5Y15O1RoAe1ymjHEe7GuGm-WNFw/viewform?vc=0&c=0&w=1&flr=0" title="Zapisz się!" rel="sign-up" class="sign-up">
-                <h2 class="sign-up">► Zapisy na rok szkolny 2023/24</h2>
-            </a>
-        </div>
-
-    <div class="timetable-container">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-0.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-1.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-2.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-3.jpg" alt="grafik" class="grafik">
-        <img src="../timetable/pictures/015200c9c7f26cccec6bcb8f49b5b762-4.jpg" alt="grafik" class="grafik">
-    </div>
+      </div>
     </section>
 
-<script src="timetable.js"></script>
+    <section class="body-section">
+      <div class="h2" id="h2">GRAFIK ZAJĘĆ</div>
 
-<div class="logotype-section">
-    <img src="pictures/Zrzut-ekranu-2019-01-27-o-132121.webp" alt="logotype1" class="logotype1" width="78px" height="41px">
-    <img src="pictures/Zrzut-ekranu-2019-05-9-o-133131.webp" alt="logotype2" class="logotype2" width="41px" height="41px">
-    <img src="pictures/Zrzut-ekranu-2019-05-9-o-212305.webp" alt="logotype3" class="logotype3" width="40px" height="41px">
-    <img src="pictures/Zrzut-ekranu-2023-06-21-o-165825.webp" alt="logotype4" class="logotype4" width="109px" height="41px">
-</div>
 
-</body>
 
-<footer>
+      <div class="timetable-container">
+        <div class="background-table">
+          <table>
+            <thead>
+              AKROBATYKA / GIMNASTYKA SPORTOWA
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>16:15 - 17:00</p>
+                </td>
+                <td>
+                  <p>DZIECI 4 - 7 LAT - BABY GYM / DUŻA SALA</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI 4 - 7 LAT - BABY GYM / MAŁA SALA</p>
+                </td>
+                <td>
+                  <p>DZIECI 4 - 7 LAT - BABY GYM / DUŻA SALA</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>11:30 - 13:00</p>
+                  <p>GRUPY ZAAWANSOWANE</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>17:00 - 18:15</p>
+                </td>
+                <td>
+                  <p>17:00 - 17:45</p>
+                  <p>DZIECI 4 - 7 LAT - BABY GYM / DUŻA SALA</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA ZAAWANSOWANA 12 - 18 LAT</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA NABOROWA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>17:00 - 17:45</p>
+                  <p>DZIECI 4 - 7 LAT - BABY GYM / DUŻA SALA</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA ZAAWANSOWANA 12 - 18 LAT</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA NABOROWA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA ZAAWANSOWANA 12 - 18 LAT</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA NABOROWA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA ZAAWANSOWANA 12 - 18 LAT</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA ŚREDNIOZAAWANSOWANA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>17:00 - 17:45</p>
+                  <p>DZIECI 4 - 7 LAT - BABY GYM / DUŻA SALA</p>
+                  <p>17:00 - 18:15</p>
+                  <p>GRUPA NABOROWA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>13:00 - 15:00</p>
+                  <p>GRUPA PRYWATNA</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>18:15 - 19:30</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAAWANSOWANA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAAWANSOWANA 8 - 11 LAT</p>
+                  <p>GRUPA NABOROWA 8 - 11 LAT</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAAWANSOWANA 8 - 11 LAT</p>
+                  <p>18:00 - 19:30</p>
+                  <p>POZNAŃ SKI</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAAWANSOWANA 8 - 11 LAT</p>
+                  <p>GRUPA NABOROWA 8 - 11 LAT</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>19:30 - 20:45</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>STUDENCI - GIMNASTYKA POD ZALICZENIE</p>
+                  <p>OLIMPIA II</p>
+                </td>
+                <td>
+                  <p>STUDENCI - GIMNASTYKA POD ZALICZENIE</p>
+                </td>
+                <td>
+                  <p>DOROŚLI</p>
+                </td>
+                <td>
+                  <p>OLIMPIA I</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>20:45 - 22:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>DOROŚLI</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
 
-    <div class="footer-end" role="contentinfo">
+          <table>
+            <thead>
+              AERIAL SILKS / SZARFY
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>13:00 - 14:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>14:00 - 15:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>15:00 - 16:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>16:00 - 17:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>DZIECI</p>
+                </td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>17:00 - 18:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>MŁODZIEŻ + DOROŚLI</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
 
-        <div class="site-branding show-title">
-            <div class="footer-end-title">
-                <a href="https://kuzisport.pl" title="Strona główna" rel="home" class="title-kuzi"></a>
-                    <p>Kuzi Sport - Klub Sportów Walki</p>
-            </div>
-        </div>
-        <div class="footer-end-copyright">
-            <p>© 2023 Kuzi Sport</p>
-            <p>Powered by Grażyna Dachtera
-                All rights reserved</p>
-        </div>
+          <table>
+            <thead>
+              AERIAL HOOPS / KOŁA CYRKOWE
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>13:00 - 14:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>14:00 - 15:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>15:00 - 16:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>16:00 - 17:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI I MŁODZIEŻ</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>17:00 - 18:00</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>SZKOŁA GES</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>MŁODZIEŻ I DOROŚLI</p>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
 
-        <div class="media-icons">
-            <i class="facebook-icon">
-                <a href="https://www.facebook.com/kuzisport">
-                    <img src="pictures/fblogo.png" alt="fb-icon" width="30" height="30"></a>
-            </i>
+          <table>
+            <thead>
+              KICKBOXING
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>16:00 - 17:00</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIEWCZYNY</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>10:00 - 11:30</p>
+                  <p>
+                    TRENING TECHNICZNY DLA WSZYSTKICH GRUP + SPARINGI DLA
+                    CHĘTNYCH
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>16:30 - 17:30</p>
+                </td>
+                <td>
+                  <p>MŁODZIEŻ LICEALNA / SZKOLNA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>MŁODZIEŻ LICEALNA / SZKOLNA GES</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>17:30 - 18:30</p>
+                </td>
+                <td>
+                  <p>DZIECI 8 - 12 LAT</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>DZIECI 8 - 12 LAT</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>18:30 - 19:30</p>
+                </td>
+                <td>
+                  <p>MŁODZIEŻ</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <p>MŁODZIEŻ</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>19:30 - 20:45</p>
+                </td>
+                <td>
+                  <p>DOROŚLI + GRUPA ZAWODNICZA</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DOROŚLI + GRUPA ZAWODNICZA</p>
+                </td>
+                <td>
+                  <p>DOROŚLI + GRUPA ZAWODNICZA</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
 
-            <i class="instagram-icon">
-                <a href="https://www.instagram.com/kuzisport/">
-                    <img src="pictures/ig logo1.png" alt="ig-icon" width="30" height="30"></a>
-            </i>
-        </div>
+          <table>
+            <thead>
+              KARATE
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>16:15 - 17:00</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI 4 - 6 LAT</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI 4 - 6 LAT</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>17:05 - 18:00</p>
+                </td>
+                <td>
+                  <p>17:00 - 18:00</p>
+                  <p>KATA DZIECI</p>
+                  <p>18:00 - 19:15</p>
+                  <p>KATA SENIORZY</p>
+                </td>
+                <td>
+                  <p>DZIECI 7 - 9 LAT</p>
+                  <p>18:00 - 19:15</p>
+                  <p>KATA SENIORZY</p>
+                </td>
+                <td>
+                  <p>MŁODZIEŻ 10 - 14 LAT</p>
+                  <p>17:00 - 18:30</p>
+                  <p>KATA SENIORZY</p>
+                </td>
+                <td>
+                  <p>DZIECI 7 - 9 LAT</p>
+                  <p>19:00 - 20:00</p>
+                  <p>KATA (MAŁA SALA)</p>
+                </td>
+                <td>
+                  <p>MŁODZIEŻ 10 - 14 LAT</p>
+                  <p>18:00 - 19:15</p>
+                  <p>KATA SENIORZY</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>18:05 - 19:15</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>GRUPA ZAWODNICZA MŁODSZA - DO 14 R.Ż.</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAWODNICZA MŁODSZA - DO 14 R.Ż.</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAWODNICZA MŁODSZA - DO 14 R.Ż.</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAWODNICZA MŁODSZA - DO 14 R.Ż.</p>
+                  <p>18:00 - 19:15</p>
+                  <p>KATA</p>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p><strong>19:15 - 20:45</strong></p>
+                </td>
+                <td></td>
+                <td>
+                  <p>GRUPA ZAWODNICZA STARSZA - OD 14 R.Ż.</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAWODNICZA STARSZA - OD 14 R.Ż.</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAWODNICZA STARSZA - OD 14 R.Ż.</p>
+                </td>
+                <td>
+                  <p>GRUPA ZAWODNICZA STARSZA - OD 14 R.Ż.</p>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <thead>
+              PARKOUR
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>18:00 - 19:00</p>
+                </td>
+                <td>
+                  <p>DZIECI DO 12 LAT</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI DO 12 LAT</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>19:00 - 20:00</p>
+                </td>
+                <td>
+                  <p>DZIECI DO 12 LAT</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI DO 12 LAT</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>20:00 - 21:30</p>
+                </td>
+                <td>
+                  <p>DZIECI OD 13 LAT I STARSI</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>DZIECI OD 13 LAT I STARSI</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr></tr>
+            </tbody>
+          </table>
+
+          <table>
+            <thead>
+              ZAJĘCIA FITNESS
+            </thead>
+            <thead>
+              <tr>
+                <th>GODZINA</th>
+                <th>PONIEDZIAŁEK</th>
+                <th>WTOREK</th>
+                <th>ŚRODA</th>
+                <th>CZWARTEK</th>
+                <th>PIĄTEK</th>
+                <th>SOBOTA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>16:00 - 17:00</p>
+                  <p>MAŁA SALA</p>
+                </td>
+                <td>
+                  <p>ZDROWY KRĘGOSŁUP PROGRAM AKTYWNIE I SPORTOWO</p>
+                </td>
+                <td>
+                  <p>ZDROWY KRĘGOSŁUP PROGRAM AKTYWNIE I SPORTOWO</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>ZDROWY KRĘGOSŁUP PROGRAM AKTYWNIE I SPORTOWO</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>17:00 - 18:00</p>
+                  <p>MAŁA SALA</p>
+                </td>
+                <td>
+                  <p>STRETCHING I ROLOWANIE PROGRAM AKTYWNIE I SPORTOWO</p>
+                </td>
+                <td>
+                  <p>PILATES PROGRAM AKTYWNIE I SPORTOWO</p>
+                </td>
+                <td></td>
+                <td>
+                  <p>PILATES PROGRAM AKTYWNIE I SPORTOWO</p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+       
+    </section>
+
+    <script src="timetable.js"></script>
+
+    <div class="logotype-section">
+      <img
+        src="pictures/Zrzut-ekranu-2019-01-27-o-132121.webp"
+        alt="logotype1"
+        class="logotype1"
+        width="78px"
+        height="41px"
+      />
+      <img
+        src="pictures/Zrzut-ekranu-2019-05-9-o-133131.webp"
+        alt="logotype2"
+        class="logotype2"
+        width="41px"
+        height="41px"
+      />
+      <img
+        src="pictures/Zrzut-ekranu-2019-05-9-o-212305.webp"
+        alt="logotype3"
+        class="logotype3"
+        width="40px"
+        height="41px"
+      />
+      <img
+        src="pictures/Zrzut-ekranu-2023-06-21-o-165825.webp"
+        alt="logotype4"
+        class="logotype4"
+        width="109px"
+        height="41px"
+      />
     </div>
-</footer>
+  </body>
+
+  <footer>
+    <div class="footer-end" role="contentinfo">
+      <div class="site-branding show-title">
+        <div class="footer-end-title">
+          <a
+            href="https://kuzisport.pl"
+            title="Strona główna"
+            rel="home"
+            class="title-kuzi"
+          ></a>
+          <p>Kuzi Sport - Klub Sportów Walki</p>
+        </div>
+      </div>
+      <div class="footer-end-copyright">
+        <p>© 2023 Kuzi Sport</p>
+        <p>Powered by Grażyna Dachtera All rights reserved</p>
+      </div>
+
+      <div class="media-icons">
+        <i class="facebook-icon">
+          <a href="https://www.facebook.com/kuzisport">
+            <img src="pictures/fblogo.png" alt="fb-icon" width="30" height="30"
+          /></a>
+        </i>
+
+        <i class="instagram-icon">
+          <a href="https://www.instagram.com/kuzisport/">
+            <img
+              src="pictures/ig logo1.png"
+              alt="ig-icon"
+              width="30"
+              height="30"
+          /></a>
+        </i>
+      </div>
+    </div>
+  </footer>
 </html>
