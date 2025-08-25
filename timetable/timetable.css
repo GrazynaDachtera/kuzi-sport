@@ -286,73 +286,26 @@
   height: auto;
 }
 
-/* Table */
+/* --- NEW: images instead of tables --- */
+.schedule-images {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* one column */
+  gap: 16px;
+  padding: 0 12px;
+}
 
-table {
+.schedule-images img {
   width: 100%;
   height: auto;
-  background: #eee;
-  margin: 10px auto;
-  box-shadow: 0 5px 10px rgba(238, 238, 238, 1);
-  justify-content: center;
-  align-items: center;
-  display: flexbox;
-  flex-wrap: wrap;
-  text-wrap: wrap;
+  display: block;
+  object-fit: contain;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
 }
 
-@media (max-width: 768px) {
-  .table {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-thead th {
-  background: #383e48;
-  color: #eee;
-  font-family: Raleway, sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-@media (max-width: 768px) {
-  thead th {
-    font-size: 0.2rem;
-  }
-}
-
-tr {
-  background: #ffffff;
-  margin: 2px auto;
-  text-wrap: wrap;
-}
-
-@media (max-width: 768px) {
-  tr {
-    margin: 0 auto;
-  }
-}
-
-th,
-td {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  padding: 10px;
-  text-align: left;
-}
-
-@media (max-width: 768px) {
-  th,
-  td {
-    max-width: 100%;
-    height: auto;
-    font-size: 0.18rem;
-    padding: 0.1rem;
-  }
-}
+/* (You can remove the old table styles if not reused anywhere else) */
 
 .logotype-section {
   overflow: hidden;
